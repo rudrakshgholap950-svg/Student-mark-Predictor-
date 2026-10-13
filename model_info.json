@@ -1,0 +1,24 @@
+{
+  "best_model": "Linear Regression",
+  "features": [
+    "study_hours",
+    "attendance",
+    "previous_marks",
+    "sleep_hours",
+    "assignments_done"
+  ],
+  "results": {
+    "Linear Regression": {
+      "R2 score": 0.903,
+      "MAE": 3.34
+    },
+    "Decision Tree": {
+      "R2 score": 0.783,
+      "MAE": 4.86
+    },
+    "Random Forest": {
+      "R2 score": 0.854,
+      "MAE": 4.08
+    }
+  }
+}
